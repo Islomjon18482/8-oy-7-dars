@@ -1,30 +1,69 @@
-# React + TypeScript + Vite
+<h1 align="center">
+  <a href="https://safdarjamal.github.io/crud-app/">
+    CRUD App
+  </a>
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="https://github.com/SafdarJamal/crud-app/actions?query=workflow%3A%22Node.js+CI%22">
+    <img src="https://github.com/SafdarJamal/crud-app/workflows/Node.js%20CI/badge.svg" alt="Node.js CI" />
+  </a>
+  <a href="https://github.com/SafdarJamal/crud-app/releases">
+    <img src="https://img.shields.io/github/v/release/SafdarJamal/crud-app" alt="GitHub Release (latest by date)" />
+  </a>
+  <a href="https://github.com/SafdarJamal/crud-app/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/SafdarJamal/crud-app" alt="License" />
+  </a>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  A simple and beautiful <a href="https://www.codecademy.com/articles/what-is-crud">CRUD</a> application built with <a href="https://reactjs.org">React</a>.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![crud-app](https://user-images.githubusercontent.com/48409548/94567114-8aa5ea80-0284-11eb-99f6-87401b099848.png)
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [React](http://reactjs.org)
+- [Primitive UI](https://taniarascia.github.io/primitive)
+- [SweetAlert2](https://sweetalert2.github.io)
 
-- Configure the top-level `parserOptions` property like this:
+## Development
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+To get a local copy of the code, clone it using git:
+
+```
+git clone https://github.com/SafdarJamal/crud-app.git
+cd crud-app
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Install dependencies:
+
+```
+npm install
+```
+
+Now, you can start a local web server by running:
+
+```
+npm start
+```
+
+and then you can open http://localhost:3000 to view it in the browser.
+
+#### Available Scripts
+
+| Script        | Description                                                             |
+| ------------- | ----------------------------------------------------------------------- |
+| npm start     | Runs the app in the development mode.                                   |
+| npm test      | Launches the test runner in the interactive watch mode.                 |
+| npm run build | Builds the app for production to the `build` folder.                    |
+| npm run eject | This command will remove the single build dependency from your project. |
+
+## Credits
+
+CRUD App is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
+
+## License
+
+CRUD App is open-source software licensed under the [MIT License](https://github.com/SafdarJamal/crud-app/blob/master/LICENSE).
